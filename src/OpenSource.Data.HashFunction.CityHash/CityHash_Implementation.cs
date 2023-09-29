@@ -451,7 +451,7 @@ namespace OpenSource.Data.HashFunction.CityHash
             x = x * K1 + BitConverter.ToUInt64(dataArray, 0);
 
             // For each 64-byte chunk
-            var groupEndOffset = dataOffset + (dataCount - (dataCount % 64));
+            var groupEndOffset = dataOffset + ((dataCount-1) - ((dataCount-1) % 64));
 
             for (var currentOffset = dataOffset; currentOffset < groupEndOffset; currentOffset += 64)
             {
