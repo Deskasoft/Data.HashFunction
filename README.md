@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **Data.HashFunction has been superseded by [HashifyNET](https://github.com/Deskasoft/HashifyNET), the next version of Data.HashFunction.**
+> **Please switch to [HashifyNET](https://github.com/Deskasoft/HashifyNET) for additional features and continuous support for security and bug fixes.**
+
+--------------------------------------------------------------------------------------------------------
+<br>
+<br>
 <img src="https://github.com/user-attachments/assets/fc94c7e0-96c6-4dfd-a728-0fd15656b5a4">
 
 Data.HashFunction ![License](https://img.shields.io/github/license/brandondahler/Data.HashFunction.svg)
